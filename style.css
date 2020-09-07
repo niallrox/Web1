@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #f1e8dc;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.cap{
+    font-size: x-large;
+    font-family: cursive;
+    padding: 20px;
+    color: white;
+    background-color: #900012;
+}
+
+.svg-graph{
+    background-color: #ea8179;
+}
+
+.bottom{
+    padding: 20px;
+    background-color: #900012;
+}
+
+#bottom-link{
+    color: white;
+    margin-left: 50%;
+    font-size: x-large;
+}
+
+.content{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+select{
+    width: 50px;
+}
+
+.text_and_select_form{
+    margin-left: 5%;
+}
+
+.select{
+    background-color: #ea8179;
+    border-radius: 20px;
+    box-shadow: inset 0 0 6px;
+    padding: 20px;
+}
+.input-form{
+    display: flex;
+}
+.text{
+    width: 170px;
+    margin-top: 25px;
+    background-color: #ea8179;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 6px;
+}
+DIV > STRONG{
+    color: white;
+}
+
+LABEL > STRONG{
+    color: white;
+}
+.send_and_clear{
+    margin-top: 25px;
+}
+#send, #clear{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: #ea8179;
+    box-shadow: inset 0 0 6px;
+}
+.table-header > div{
+    font-size: x-large;
+    margin-left: 50px;
+}
+.text_send_clear{
+    color: white;
+}
+.header_item{
+    color: white;
+}
+.table{
+    margin-left: 100px;
+}
+#point{
+    transition: all 1s;
+}
+button:focus {
+    outline: none;
+}
+.result{
+    margin-left: 50px;
+}
+.result th {
+    width: 135px;
+    height: 60px;
+}
+.resultHeader{
+    background-color: black;
+    color: white;
+}
